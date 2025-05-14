@@ -7,3 +7,4 @@
     4. Objects in Memory
     5. [Access Specifiers and Modifiers](src/_1_concepts/_1_5_access_specifiers_and_modifiers)
     6. [Get and Set](src/_1_concepts/_1_6_get_and_set)
+    7. [Read Only Property](src/_1_concepts/_1_7_read_only_property)
