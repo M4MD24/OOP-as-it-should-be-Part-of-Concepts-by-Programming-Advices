@@ -78,7 +78,7 @@ public:
         result = 0;
     }
 
-    void printResult() const {
+    void printResult() {
         cout << lastResult << " after " << checkOperator(
             lastOperator
         );
