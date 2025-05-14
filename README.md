@@ -20,6 +20,7 @@
     17. [Function Overriding](src/_1_concepts/_1_17_function_overriding)
     18. [Multi Level Inheritance](src/_1_concepts/_1_18_multi_level_inheritance)
     19. [Inheritance Visibility Mode](src/_1_concepts/_1_19_inheritance_visibility_mode)
+    20. Inheritance Types
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
