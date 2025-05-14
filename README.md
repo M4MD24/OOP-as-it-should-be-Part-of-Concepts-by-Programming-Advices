@@ -22,3 +22,4 @@
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
     3. [Employee](src/_2_projects/_2_3_employee)
+    4. [Programmer](src/_2_projects/_2_4_programmer)
