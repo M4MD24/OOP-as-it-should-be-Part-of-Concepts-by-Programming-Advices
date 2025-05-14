@@ -15,6 +15,7 @@
     12. [Destructor](src/_1_concepts/_1_10_destructor)
     13. [Static Member](src/_1_concepts/_1_11_static_member)
     14. [Static Method](src/_1_concepts/_1_12_static_method)
+    15. [Inheritance](src/_1_concepts/_1_13_inheritance)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
