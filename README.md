@@ -21,10 +21,11 @@
     18. [Multi Level Inheritance](src/_1_concepts/_1_18_multi_level_inheritance)
     19. [Inheritance Visibility Mode](src/_1_concepts/_1_19_inheritance_visibility_mode)
     20. Inheritance Types
-    21. [Up Casting vs Down Casting](src/_1_concepts/_1_21_up_casting_vs_down_casting/)
+    21. [Up Casting vs Down Casting](src/_1_concepts/_1_21_up_casting_vs_down_casting)
     22. [Virtual Functions](src/_1_concepts/_1_22_virtual_functions)
     23. [Static and Early Binding vs Dynamic and Late Binding](src/_1_concepts/_1_23_static_and_early_binding_vs_dynamic_and_late_binding)
     24. Polymorphism
+    25. [Abstract Classes](src/_1_concepts/_1_25_abstract_class)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
