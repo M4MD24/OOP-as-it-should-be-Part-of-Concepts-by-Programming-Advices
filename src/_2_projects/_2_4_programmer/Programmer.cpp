@@ -1,24 +1,15 @@
 #include <iostream>
 using namespace std;
 
-struct FullName {
-    string firstName, secondName;
-};
-
-struct MobileNumber {
-    string countryCode, contactNumber;
-};
-
-struct Salary {
-    float salaryCount{};
-    string symbol;
-};
-
-struct Job {
-    string title, department;
-};
-
 class Person {
+    struct FullName {
+        string firstName, secondName;
+    };
+
+    struct MobileNumber {
+        string countryCode, contactNumber;
+    };
+
     int id;
     FullName fullName;
     string email;
@@ -83,7 +74,7 @@ public:
             '-'
         ) + '\n';
         cout << LINE
-            << "Employee Information:" << endl
+            << "Person Information:" << endl
             << "ID: " << to_string(
                 id
             ) << endl
@@ -111,6 +102,15 @@ public:
 };
 
 class Programmer : public Person {
+    struct Salary {
+        float salaryCount{};
+        string symbol;
+    };
+
+    struct Job {
+        string title, department;
+    };
+
     Salary salary;
     Job job;
     string mainProgrammingLanguage;
@@ -193,7 +193,7 @@ public:
             '-'
         ) + '\n';
         cout << LINE
-            << "Employee Information:" << endl
+            << "Programmer Information:" << endl
             << "ID: " << to_string(
                 getID()
             ) << endl

@@ -30,6 +30,7 @@
     27. [Friend Method](src/_1_concepts/_1_27_friend_method)
     28. [Nested Class](src/_1_concepts/_1_28_nested_class)
     29. [Nested Class Constructor](src/_1_concepts/_1_29_nested_class_constructor)
+    30. [Separate Classes in Libraries](src/_1_concepts/_1_30_separate_classes_in_libraries)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)

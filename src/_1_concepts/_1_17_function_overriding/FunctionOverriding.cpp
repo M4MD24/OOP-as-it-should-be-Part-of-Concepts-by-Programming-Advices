@@ -83,7 +83,7 @@ public:
             '-'
         ) + '\n';
         cout << LINE
-            << "Employee Information:" << endl
+            << "Person Information:" << endl
             << "ID: " << to_string(
                 id
             ) << endl

@@ -1,27 +1,27 @@
 #include <iostream>
 using namespace std;
 
-struct FullName {
-    string firstName,
-           secondName;
-};
-
-struct MobileNumber {
-    string countryCode,
-           contactNumber;
-};
-
-struct Salary {
-    float salaryCount{};
-    string symbol;
-};
-
-struct Job {
-    string title,
-           department;
-};
-
 class Employee {
+    struct FullName {
+        string firstName,
+               secondName;
+    };
+
+    struct MobileNumber {
+        string countryCode,
+               contactNumber;
+    };
+
+    struct Salary {
+        float salaryCount {};
+        string symbol;
+    };
+
+    struct Job {
+        string title,
+               department;
+    };
+
     int id;
     FullName fullName;
     string email;
@@ -31,16 +31,16 @@ class Employee {
 
 public:
     Employee(
-        const int& ID,
-        const string& FIRST_NAME,
-        const string& SECOND_NAME,
-        const string& EMAIL,
-        const string& COUNTRY_CODE,
-        const string& CONTACT_NUMBER,
-        const float& SALARY_NUMBER,
-        const string& SYMBOL,
-        const string& TITLE,
-        const string& DEPARTMENT
+        const int &ID,
+        const string &FIRST_NAME,
+        const string &SECOND_NAME,
+        const string &EMAIL,
+        const string &COUNTRY_CODE,
+        const string &CONTACT_NUMBER,
+        const float &SALARY_NUMBER,
+        const string &SYMBOL,
+        const string &TITLE,
+        const string &DEPARTMENT
     ) {
         id = ID;
         fullName = {
@@ -65,8 +65,8 @@ public:
     int getID() { return id; }
 
     void setFullName(
-        const string& FIRST_NAME,
-        const string& SECOND_NAME
+        const string &FIRST_NAME,
+        const string &SECOND_NAME
     ) {
         fullName = {
             FIRST_NAME,
@@ -77,14 +77,14 @@ public:
     string getFullName() { return fullName.firstName + ' ' + fullName.secondName; }
 
     void setEmail(
-        const string& EMAIL
+        const string &EMAIL
     ) { email = EMAIL; }
 
     string getEmail() { return email; }
 
     void setMobileNumber(
-        const string& COUNTRY_CODE,
-        const string& CONTACT_NUMBER
+        const string &COUNTRY_CODE,
+        const string &CONTACT_NUMBER
     ) {
         mobileNumber = {
             COUNTRY_CODE,
@@ -95,8 +95,8 @@ public:
     string getMobileNumber() { return mobileNumber.countryCode + mobileNumber.contactNumber; }
 
     void setSalary(
-        const float& SALARY_NUMBER,
-        const string& SYMBOL
+        const float &SALARY_NUMBER,
+        const string &SYMBOL
     ) {
         salary = {
             SALARY_NUMBER,
@@ -111,8 +111,8 @@ public:
     }
 
     void setJob(
-        const string& TITLE,
-        const string& DEPARTMENT
+        const string &TITLE,
+        const string &DEPARTMENT
     ) {
         job = {
             TITLE,
@@ -143,8 +143,8 @@ public:
     }
 
     void sendEmail(
-        const string& SUBJECT,
-        const string& BODY
+        const string &SUBJECT,
+        const string &BODY
     ) {
         cout << "Email sent to: " << email << endl
             << "Subject: " << SUBJECT << endl
@@ -152,7 +152,7 @@ public:
     }
 
     void sendSMS(
-        const string& MESSAGE
+        const string &MESSAGE
     ) {
         cout << "SMS sent to: " << getMobileNumber() << endl
             << "Message: " << MESSAGE << endl;
@@ -160,7 +160,7 @@ public:
 };
 
 int main() {
-    Employee employee{
+    Employee employee {
         1,
         "Mohamed",
         "Sadawy",

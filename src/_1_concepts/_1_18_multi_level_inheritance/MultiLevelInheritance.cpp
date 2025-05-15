@@ -83,7 +83,7 @@ public:
             '-'
         ) + '\n';
         cout << LINE
-            << "Employee Information:" << endl
+            << "Person Information:" << endl
             << "ID: " << to_string(
                 id
             ) << endl
@@ -240,7 +240,7 @@ public:
             '-'
         ) + '\n';
         cout << LINE
-            << "Employee Information:" << endl
+            << "Programmer Information:" << endl
             << "ID: " << to_string(
                 getID()
             ) << endl

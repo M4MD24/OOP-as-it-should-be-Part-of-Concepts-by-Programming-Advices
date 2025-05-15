@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-struct MobileNumber {
-    string countryCode,
-           contactNumber;
-};
-
-struct FullName {
-    string firstName,
-           secondName;
-};
-
 class Person {
+    struct MobileNumber {
+        string countryCode,
+               contactNumber;
+    };
+
+    struct FullName {
+        string firstName,
+               secondName;
+    };
+
     int id;
     FullName fullName;
     string email;
@@ -19,12 +19,12 @@ class Person {
 
 public:
     Person(
-        const int& ID,
-        const string& FIRST_NAME,
-        const string& SECOND_NAME,
-        const string& EMAIL,
-        const string& COUNTRY_CODE,
-        const string& CONTACT_NUMBER
+        const int &ID,
+        const string &FIRST_NAME,
+        const string &SECOND_NAME,
+        const string &EMAIL,
+        const string &COUNTRY_CODE,
+        const string &CONTACT_NUMBER
     ) {
         id = ID;
         fullName = {
@@ -41,8 +41,8 @@ public:
     int getID() { return id; }
 
     void setFullName(
-        const string& FIRST_NAME,
-        const string& SECOND_NAME
+        const string &FIRST_NAME,
+        const string &SECOND_NAME
     ) {
         fullName.firstName = FIRST_NAME;
         fullName.secondName = SECOND_NAME;
@@ -51,14 +51,14 @@ public:
     string getFullName() { return fullName.firstName + ' ' + fullName.secondName; }
 
     void setEmail(
-        const string& EMAIL
+        const string &EMAIL
     ) { email = EMAIL; }
 
     string getEmail() { return email; }
 
     void setMobileNumber(
-        const string& COUNTRY_CODE,
-        const string& CONTACT_NUMBER
+        const string &COUNTRY_CODE,
+        const string &CONTACT_NUMBER
     ) {
         mobileNumber.countryCode = COUNTRY_CODE;
         mobileNumber.contactNumber = CONTACT_NUMBER;
@@ -71,7 +71,7 @@ public:
                 20,
                 '-'
             ) << endl
-        << "Person Information:" << endl
+            << "Person Information:" << endl
             << "ID: " << to_string(
                 id
             ) << endl
@@ -85,8 +85,8 @@ public:
     }
 
     void sendEmail(
-        const string& SUBJECT,
-        const string& BODY
+        const string &SUBJECT,
+        const string &BODY
     ) {
         cout << "Email sent to: " << email << endl
             << "Subject: " << SUBJECT << endl
@@ -94,7 +94,7 @@ public:
     }
 
     void sendSMS(
-        const string& MESSAGE
+        const string &MESSAGE
     ) {
         cout << "SMS sent to: " << getMobileNumber() << endl
             << "Message: " << MESSAGE << endl;
@@ -102,7 +102,7 @@ public:
 };
 
 int main() {
-    Person person{
+    Person person {
         1,
         "Mohamed",
         "Sadawy",
