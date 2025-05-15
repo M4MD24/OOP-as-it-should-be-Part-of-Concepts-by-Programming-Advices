@@ -26,6 +26,7 @@
     23. [Static and Early Binding vs Dynamic and Late Binding](src/_1_concepts/_1_23_static_and_early_binding_vs_dynamic_and_late_binding)
     24. Polymorphism
     25. [Abstract Classes](src/_1_concepts/_1_25_abstract_class)
+    26. [Friend Class](src/_1_concepts/_1_26_friend_class)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
