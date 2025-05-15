@@ -22,6 +22,7 @@
     19. [Inheritance Visibility Mode](src/_1_concepts/_1_19_inheritance_visibility_mode)
     20. Inheritance Types
     21. [Up Casting vs Down Casting](src/_1_concepts/_1_21_up_casting_vs_down_casting/)
+    22. [Virtual Functions](src/_1_concepts/_1_22_virtual_functions)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
