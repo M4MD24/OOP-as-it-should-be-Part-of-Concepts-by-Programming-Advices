@@ -34,6 +34,7 @@
     31. [This Pointer](src/_1_concepts/_1_31_this_pointer)
     32. [Adding Objects to Vector](src/_1_concepts/_1_32_adding_objects_to_vector)
     33. [Adding Objects to Array](src/_1_concepts/_1_33_adding_objects_to_array)
+    34. [Adding Objects with Parameterized Constructor to Array](src/_1_concepts/_1_34_adding_objects_with_parameterized_constructor_to_array)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
