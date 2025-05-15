@@ -27,6 +27,7 @@
     24. Polymorphism
     25. [Abstract Classes](src/_1_concepts/_1_25_abstract_class)
     26. [Friend Class](src/_1_concepts/_1_26_friend_class)
+    27. [Friend Method](src/_1_concepts/_1_27_friend_method)
 2. Projects
     1. [Calculator](src/_2_projects/_2_1_calculator)
     2. [Person](src/_2_projects/_2_2_person)
