@@ -41,3 +41,5 @@
     3. [Employee](src/_2_projects/_2_3_employee)
     4. [Programmer](src/_2_projects/_2_4_programmer)
     5. [String Library](src/_2_projects/_2_5_string_library)
+    6. [Date Library](src/_2_projects/_2_6_date_library)
+        1. Date Class

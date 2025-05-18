@@ -59,7 +59,7 @@ public:
         job = {
             TITLE,
             DEPARTMENT
-        };;
+        };
     }
 
     int getID() { return id; }
