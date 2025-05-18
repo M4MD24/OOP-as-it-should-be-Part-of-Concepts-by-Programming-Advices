@@ -298,4 +298,47 @@ int main() {
     date.showMonthCalendar();
 
     date.showYearCalendar();
+
+    Period period = {
+        {
+            1,
+            12,
+            2024
+        },
+        {
+            1,
+            1,
+            2025
+        }
+    };
+
+    cout << "\nAre Overlap: " << period.areOverlap(
+        {
+            {
+                1,
+                11,
+                2024
+            },
+            {
+                20,
+                12,
+                2024
+            }
+        }
+    ) << endl;
+
+    cout << "Count Overlap Days: " << period.countOverlapDays(
+        {
+            {
+                1,
+                11,
+                2024
+            },
+            {
+                20,
+                12,
+                2024
+            }
+        }
+    ) << endl;
 }

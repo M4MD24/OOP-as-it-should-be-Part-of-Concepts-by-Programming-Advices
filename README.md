@@ -43,3 +43,4 @@
     5. [String Library](src/_2_projects/_2_5_string_library)
     6. [Date Library](src/_2_projects/_2_6_date_library)
         1. Date Class
+        2. Period Class
