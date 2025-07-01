@@ -16,7 +16,7 @@ class Calculator {
     long double result = 0;
 
     static string checkOperator(
-        const Operator& OPERATOR
+        const Operator &OPERATOR
     ) {
         switch (OPERATOR) {
         case Add:
@@ -36,7 +36,7 @@ class Calculator {
 
 public:
     void add(
-        const long double& VALUE
+        const long double &VALUE
     ) {
         lastOperator = Add;
         lastValue = VALUE;
@@ -45,7 +45,7 @@ public:
     }
 
     void subtract(
-        const long double& VALUE
+        const long double &VALUE
     ) {
         lastOperator = Subtract;
         lastValue = VALUE;
@@ -54,7 +54,7 @@ public:
     }
 
     void multiply(
-        const long double& VALUE
+        const long double &VALUE
     ) {
         lastOperator = Multiply;
         lastValue = VALUE;
@@ -63,13 +63,13 @@ public:
     }
 
     void divide(
-        const long double& VALUE
+        const long double &VALUE
     ) {
-        if (VALUE != 0)
-            result /= VALUE;
         lastOperator = Divide;
         lastValue = VALUE;
         lastResult = result;
+        if (VALUE != 0)
+            result /= VALUE;
     }
 
     void clear() {
