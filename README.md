@@ -1,4 +1,4 @@
-# OOP as it Should be Part of Concept
+# OOP as it Should be Part of Concepts
 
 1. Concepts
     1. OOP
